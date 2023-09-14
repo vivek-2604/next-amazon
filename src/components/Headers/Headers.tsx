@@ -99,7 +99,7 @@ function Headers() {
         </div>
         {/* cart */}
         <Link
-          href={"/cart"}
+          href={"/Cart"}
           className="flex items-center px-2 border border-transparent hover:border-white cursur-pointer duration-300 h-[70%] relative"
         >
           <Image

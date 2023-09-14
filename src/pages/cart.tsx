@@ -6,7 +6,7 @@ import ResetCart from "@/components/ResetCart";
 import Link from "next/link";
 import CartPayment from "@/components/CartPayment";
 
-function cart() {
+function Cart() {
   const { productData } = useSelector((state: StateProps) => state.next);
 
   return (
@@ -49,4 +49,4 @@ function cart() {
   );
 }
 
-export default cart;
+export default Cart;
